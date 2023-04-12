@@ -6,7 +6,7 @@ permalink: /about/
 background: '/img/bg-about.jpg'
 ---
 
-Xuất thân từ con nhà nông ở Bắc Giang, mình họ tên đầy đủ là Giáp Văn Đông. Hiện tại đang là một Software Engineer ở Hà Nội. Mình là người phần nhiều là hướng nội và cuộc sống của mình từ lâu đã gắn liền với bàn phím và màn hình. Thực sự thì mình là củ cà rốt - thuần Engineer hoặc thậm chí là Builder, mình cũng k xuất sắc lắm nhưng mà vẫn tự tin nhận là vậy :D. Mình extreme đối với những thứ mà mình làm và thấy excited vì nó.
+Xuất thân từ con nhà nông ở Bắc Giang, mình họ tên đầy đủ là Giáp Văn Đông. Hiện tại đang là một Software Engineer ở Hà Nội. Mình là người phần nhiều là hướng nội và cuộc sống của mình từ lâu đã gắn liền với bàn phím và màn hình. Thực sự thì mình là củ cà rốt - thuần Engineer, mình cũng k xuất sắc lắm nhưng mà vẫn tự tin nhận là vậy :D. Mình extreme đối với những thứ mà mình làm và thấy excited vì nó.
 
 Triết lý của mình khá đơn giản: Đã k giỏi xuất sắc thì hãy Chăm chỉ + Tận tuỵ + Chân thành làm những điều mình tin là đúng để nuôi dưỡng Đam mê, Sở thích và Ước muốn.
 
