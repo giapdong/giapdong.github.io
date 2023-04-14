@@ -3,7 +3,7 @@ layout: page
 title: Đông Giáp (Dino)
 description: Extremer
 permalink: /about/
-background: '/img/bg-about.jpg'
+background: '/img/bg-about.png'
 ---
 
 Xuất thân từ con nhà nông ở Bắc Giang. Hiện tại mình đang là Software Engineer ở Hà Nội. Mình là người phần nhiều là hướng nội và cuộc sống của mình từ lâu đã gắn liền với bàn phím và màn hình. Thực sự thì mình là củ cà rốt - thuần Engineer, mình cũng k xuất sắc lắm nhưng mà vẫn tự tin nhận là vậy 😁. Mình extreme đối với những thứ mà mình làm và thấy excited vì nó.
