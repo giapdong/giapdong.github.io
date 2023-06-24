@@ -1,0 +1,46 @@
+// Ideally from https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+
+.notice {
+	margin: 2em 0 !important;
+	padding: 1em;
+	color: #3d4144;
+	font-family: -apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+	font-size: .75em !important;
+	text-indent: initial;
+	background-color: #f2f3f3;
+	border-radius: 4px;
+	box-shadow: 0 1px 1px rgba(189,193,196,0.25);
+
+	&.info {
+		background-color: #d8ebf1;
+		box-shadow: 0 1px 1px rgba(59,156,186,0.25);
+	}
+
+
+	&.warning {
+		background-color: #f7e5cd;
+		box-shadow: 0 1px 1px rgba(214,127,5,0.25);
+	}
+
+	&.success {
+		background-color: #d9edd9;
+		box-shadow: 0 1px 1px rgba(63,166,63,0.25);
+	}
+
+	&.danger {
+		background-color: #fcdfde;
+		box-shadow: 0 1px 1px rgba(238,95,91,0.25);
+	}
+
+	a {
+		color: #aaaeb0;
+		&:hover {
+			color: #5f6162;
+		}
+	}
+
+	code {
+		background-color: #f8f9f9;
+		color: #3d4144;
+	}
+}

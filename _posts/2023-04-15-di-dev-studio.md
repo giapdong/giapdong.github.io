@@ -23,6 +23,8 @@ Sau Unity thì mình chuyển hướng làm web và trong đó thì mình cũng 
 # Về kênh
 Mình lập kênh thì cũng khá lâu rồi nhưng mà cũng chưa có đủ thời gian phát triển nên là giờ con số **subscriber** cũng còn hạn chế, nên là các bạn đã đọc đến đây vào ủng hộ mình 1 sub nhé 😁😁
 
-<div style='text-align: center;'>
-	<img src="/img/youtuber/channel-2023.jpg" alt="Youtube Channel 2023" style="height: 360px;"/>
-</div>
+
+<figure>
+	<img src="/img/youtuber/channel-2023.jpg">
+	<figcaption>Youtube Channel 2023.</figcaption>
+</figure>
