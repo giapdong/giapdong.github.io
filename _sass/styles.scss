@@ -2,7 +2,8 @@
 
 @import "./bootstrap/bootstrap.scss";
 
-// Import Core Clean Blog SCSS
-@import "./clean-blog-theme/styles.scss";
+@import "global";
+
+@import "./sections/autoload.scss";
 
 @import "./components/autoload.scss";
