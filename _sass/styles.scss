@@ -1,2 +1,8 @@
+@import "./variables/autoload.scss";
+
+@import "./bootstrap/bootstrap.scss";
+
 // Import Core Clean Blog SCSS
-@import "../assets/vendor/startbootstrap-clean-blog/scss/styles.scss";
+@import "./clean-blog-theme/styles.scss";
+
+@import "./components/autoload.scss";
