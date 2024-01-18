@@ -3,7 +3,7 @@ layout: post
 title:  "Figma & Product Design"
 date:   2023-06-25 06:41:46 +0700
 categories: product
-background: '/img/bg-posts.jpg'
+background: '/bg-posts.jpg'
 ---
 How to design the best Digital Product 💚
 
@@ -15,7 +15,7 @@ Rủi là sau vài năm thì mình đi theo con đường Build Product thì tr�
 - Figma mình thấy là hợp lý để tạo một bản Product Design hơn PS. Cái mình feeling được là nó có ít và `vừa vặn` những thành phần để làm nên giao diện đẹp. Cụ thể: Những hình khối cơ bản, đổ màu, font chữ, component, auto layout, grid, vector,... chứ nó cũng không cần phải có Magic tool, mask, smart objects,...
 - Thật là trùng hợp khi mà mình mở Figma lên ngày hôm nay thì cũng thấy có beta của Dev Mode thì các bạn cũng thấy rõ hướng đi theo Product Design rõ ràng hơn
 <figure class="half">
-	<img src="/img/figma/dev-mode.png">
+	<img src="{{site.mediaurl}}/figma/dev-mode.png">
 </figure>
 
 # Hành trình design logo của blog
@@ -23,10 +23,10 @@ Thì học xong rồi cũng thực hành thôi nào, mình thì cũng không có
 
 Bản vẽ đầu tiên - Chú khủng long con 🤪
 <figure>
-	<img src="/img/figma/logo.v1.png">
+	<img src="{{site.mediaurl}}/figma/logo.v1.png">
 </figure>
 
 Bản vẽ 3D đầu tiên - có vẻ hơi thô; Jun 30 2023
 <figure>
-	<img src="/img/figma/giapdong.live.02072023.png">
+	<img src="{{site.mediaurl}}/figma/giapdong.live.02072023.png">
 </figure>

@@ -3,7 +3,7 @@ layout: page
 title: Đông Giáp (Dino)
 description: Powered by V8
 permalink: /about/
-background: '/img/bg-about.png'
+background: '/bg-about.png'
 ---
 
 Chào bạn, củ cà rốt ngả lá cúi chào! Đôi nét về bản thân thì mình đang là Software Engineer, cuộc sống của mình từ lâu đã gắn liền với bàn phím + màn hình. Và mình thì không có tài năng gì đặc biệt cả, mình chỉ vô cùng, vô cùng ... `tò mò` thế giới thôi!

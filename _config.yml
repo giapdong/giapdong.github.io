@@ -16,9 +16,9 @@
 title: Dino Live
 email: giapdong.svbk62@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Chạm là Chiến ._.
+  Survival Man ._.
 baseurl: "" # the subpath of your site, e.g. /blog
-mediaurl: "https://media.githubusercontent.com/media/giapdong/giapdong.github.io/main"
+mediaurl: "http://media.giapdong.live"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  giapdong

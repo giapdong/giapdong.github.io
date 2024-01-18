@@ -3,7 +3,7 @@ layout: post
 title:  "Đi Dev Studio"
 date:   2023-04-15 00:00:00 +0700
 categories: youtuber
-background: '/img/dlut-2023/vedich.jpg'
+background: '/dlut-2023/vedich.jpg'
 ---
 Học and Học
 
@@ -25,6 +25,6 @@ Mình lập kênh thì cũng khá lâu rồi nhưng mà cũng chưa có đủ th
 
 
 <figure>
-	<img src="/img/youtuber/channel-2023.jpg">
+	<img src="{{site.mediaurl}}/youtuber/channel-2023.jpg">
 	<figcaption>Youtube Channel 2023.</figcaption>
 </figure>
