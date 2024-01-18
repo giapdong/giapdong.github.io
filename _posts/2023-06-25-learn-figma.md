@@ -18,15 +18,20 @@ Rủi là sau vài năm thì mình đi theo con đường Build Product thì tr�
 	<img src="{{site.mediaurl}}/figma/dev-mode.png">
 </figure>
 
-# Hành trình design logo của blog
+# Case Study: Hành trình design logo của blog
 Thì học xong rồi cũng thực hành thôi nào, mình thì cũng không có quá nhiều thứ hay ho, fancy để show cho ae đâu, đây chỉ là viết lại hành trình mình đã trải qua thôi. Giống như làm Product vậy, cảm thấy vừa đủ là đẩy lên production thôi, chứ perfect trong phòng thí nghiệm thì khó lắm. Dù biết là quá trình này có thể sẽ take many years nhưng mà với mình nó k quan trọng 😉
 
 Bản vẽ đầu tiên - Chú khủng long con 🤪
-<figure>
+<figure style='width: 200px;'>
 	<img src="{{site.mediaurl}}/figma/logo.v1.png">
 </figure>
 
 Bản vẽ 3D đầu tiên - có vẻ hơi thô; Jun 30 2023
-<figure>
+<figure style='width: 200px;'>
 	<img src="{{site.mediaurl}}/figma/giapdong.live.02072023.png">
+</figure>
+
+Sau một thời gian thì mình cũng nhận ra phong cách của mình. Nó k phải kiểu màu mè cũng k phải quá đường nét. Kiểu của mình phù hợp với những dạng đơn giản, mình có thể làm tốt được kiểu như hình khối, chữ, góc độ, đôi chút đường cong nhẹ thôi. Theo nghĩa đen thì mình thuộc trường phái basic, easy, thin nhất có thể (Survival man mà)
+<figure style='width: 200px;'>
+	<img src="{{site.mediaurl}}/figma/giapdong.live.18012024.png">
 </figure>

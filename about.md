@@ -6,7 +6,7 @@ permalink: /about/
 background: '/bg-about.png'
 ---
 
-Chào bạn, củ cà rốt ngả lá cúi chào! Đôi nét về bản thân thì mình đang là Software Engineer, cuộc sống của mình từ lâu đã gắn liền với bàn phím + màn hình. Và mình thì không có tài năng gì đặc biệt cả, mình chỉ vô cùng, vô cùng ... `tò mò` thế giới thôi!
+Chào bạn, củ cà rốt ngả lá cúi chào! Đôi nét về bản thân thì mình đang là Software Engineer, cuộc sống của mình từ lâu đã gắn liền với bàn phím + màn hình. Và mình thì không có tài năng gì đặc biệt cả, mình chỉ đơn giản là `tò mò` thế giới rộng lớn thôi!
 
 Triết lý của mình khá đơn giản: Đã k giỏi xuất sắc thì hãy Chăm chỉ + Tận tuỵ + Chân thành làm những điều mình tin là đúng để nuôi dưỡng Đam mê, Sở thích và Ước muốn.
 
