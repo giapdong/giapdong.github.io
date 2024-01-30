@@ -32,3 +32,32 @@ pre code {
 	color: inherit;
 	background-color: transparent;
 }
+
+.code-block {
+	position: relative;
+
+	.-copy {
+		display: none;
+		position: absolute;
+		top: 8px;
+		right: 24px;
+		background: #ffffad;
+		padding: 2px 4px;
+		border-radius: 3px;
+		cursor: pointer;
+	}
+
+	&:hover .-copy {
+		display: inline-block;
+	}
+
+	.-alert {
+		position: absolute;
+		top: 40px;
+		display: block;
+		width: fit-content;
+		right: 16px;
+		background-color: white;
+		padding: 0px 4px;
+	}
+}
