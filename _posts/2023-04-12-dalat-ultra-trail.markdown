@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Giải Trail đầu đời"
 date:   2023-04-12 06:41:46 +0700
 categories: runner

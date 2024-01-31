@@ -26,6 +26,16 @@ youtube_username:  DiDevStudio
 
 # Build settings
 markdown: kramdown
+defaults:
+  # All post will using post layout as default
+  # See https://jekyllrb.com/docs/configuration/front-matter-defaults/
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+
 paginate:           5
 paginate_path:      "/posts/page:num/"
 plugins:

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Tự build ngrok cho thoả đam mê"
 date:   2024-01-30 20:40:00 +0700
 categories: product

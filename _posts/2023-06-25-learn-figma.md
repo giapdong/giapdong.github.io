@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Figma & Product Design"
 date:   2023-06-25 06:41:46 +0700
 categories: product

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Quan điểm cá nhân về Engineer"
 date:   2024-01-18 23:40:00 +0700
 categories: engineering
