@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>
+		Tự build ngrok cho thoả đam mê - Dino Live
+		
+	</title>
+
+	<meta name="description" content="Làm lại cả thế giới">
+
+	<link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+	<script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="/assets/main.css">
+	<link rel="canonical" href="/product/2024/01/30/localtunnel.html">
+	<link rel="alternate" type="application/rss+xml" title="Dino Live" href="/feed.xml">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://media.giapdong.live/logo.png">
+
+</head>
+
+
+	<body>
+
+		<!-- Navigation -->
+<!-- Override default navbar of Clean Blog theme -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+	<div class="container">
+		<a class="navbar-brand" href="/">Dino Live</a>
+
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			Menu
+			<i class="fa fa-bars"></i>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="/">Ơ, Nhà kìa</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="/about">Về Đông</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="/posts">Bài Viết</a>
+				</li>
+
+				<!-- <li class="nav-item">
+					<a class="nav-link" href="/contact">Contact</a>
+				</li> -->
+			</ul>
+		</div>
+	</div>
+</nav>
+
+
+		<!-- Page Header -->
+
+<header class="masthead" style="background-image: url('https://media.giapdong.live/engineering/background.jpg')">
+
+	<div class="overlay"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-md-10 mx-auto">
+				<div class="post-heading">
+					<h1>Tự build ngrok cho thoả đam mê</h1>
+
+					
+
+					<span class="meta">Posted by
+					<a href="#"></a>
+					on January 30, 2024 &middot; <span class="reading-time" title="Estimated read time">
+  
+   3 mins  read </span>
+
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8 col-md-10 mx-auto">
+
+			<p>Làm lại cả thế giới</p>
+
+<h1 id="giới-thiệu">Giới thiệu</h1>
+<p>Khỏi dài dòng thì trong bài này mình sẽ nói về phần mình đã làm để sử dụng công cụ để có thể giúp mình expose local ra internet và làm nhiều thứ theo ý thích của mình.
+Quan trọng hơn là nó phải <code class="language-plaintext highlighter-rouge">cố định</code>, tức là bạn luôn có 1 đường link cho mọi lần sử dụng công cụ đó! Thú vị không nào? Vậy thì nhào zô nha</p>
+
+<p>page rendered at:  2024-02-01 20:58:21 +0700</p>
+
+<h1 id="công-cụ">Công cụ</h1>
+<p>Thành thực mà nói thì mình cũng k hoàn toàn tạo ra 100% công cụ này, mình dựa vào thư viện có sẵn đó là localtunnel và mình tự triển khai và có một chút customize cũng như fix bug để có thể sử dụng mượt nhất. Các bạn có thể xem lại hàng real <a href="https://www.npmjs.com/package/localtunnel">trên npm</a>.</p>
+
+<h1 id="dùng-nó-như-thế-nào-đây-chú-khủng-long-con">Dùng nó như thế nào đây chú khủng long con?</h1>
+<p>À thì nó cũng k khó lắm, bạn <a href="https://www.npmjs.com/package/localtunnel">vào đây</a> để tải và cài đặt như một package npm <strong>GLOBAL</strong> bình thường. Sau đó thì chúng ta sẽ có 2 usecase</p>
+
+<h3 id="expose-local-port-ra-internet">Expose local port ra internet</h3>
+<p>Trong trường hợp các bạn sử dụng ứng dụng nodejs và đang chạy local với url dạng: <code class="language-plaintext highlighter-rouge">http://localhost:3000</code> chẳng hạn rồi mình muốn hứng request từ ngoài internet vào local thì các bạn sẽ dùng command sau:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+lt \
+--port 3000 \
+-s mylocal-application-nodejs \
+--host https://tunnel.giapdong.xyz \
+--session-connection \
+--session-timeout 10
+
+</code></pre></div></div>
+<p>Và bây giờ thì các bạn có thể gọi api <code class="language-plaintext highlighter-rouge">https://mylocal-application-nodejs.tunnel.giapdong.xyz</code> thay cho <code class="language-plaintext highlighter-rouge">http://localhost:3000</code> rồi. Và thế là các bạn có thể dùng nó cho những phần kiểu như gọi webhook từ internet chẳng hạn.</p>
+
+<h3 id="expose-local-domain-ra-internet">Expose local domain ra internet</h3>
+<p>Các bạn code php chắc hẳn đã quen với kiểu mà ở local sẽ có domain dạng: <code class="language-plaintext highlighter-rouge">https://app01.marketplace.beta</code> mà muốn expose nó ra ngoài internet giống usecase bên trên thì chúng ta cũng sẽ có command tương ứng như sau:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+lt \
+-l app01.marketplace.beta \
+-p 443 \
+--local-https \
+--local-cert &lt;path-to-certificate-file&gt; \
+--local-key &lt;path-to-key-file&gt; \
+--allow-invalid-cert \
+-s domain-public-internet \
+--host https://tunnel.giapdong.xyz
+
+</code></pre></div></div>
+
+<p>Như vậy thì các bạn cũng sẽ có một domain public cho nó đấy chính là: <code class="language-plaintext highlighter-rouge">https://domain-public-internet.tunnel.giapdong.xyz</code></p>
+
+<h1 id="lời-kết">Lời kết</h1>
+<p>Đến đây thì mình cũng cảm ơn các bạn đã sử dụng và trải nghiệm, đây cũng là một ứng dụng nho nhỏ do mình triển khai và public cho cộng đồng sử dụng. Rất mong được sự ủng hộ của các bạn nhé. Nếu có thắc mắc gì thì hãy liên hệ lại với mình nha 😉</p>
+
+
+			<hr>
+
+			<div class="clearfix">
+
+				
+					<a
+						class="btn btn-primary float-left"
+						href="/engineering/2024/01/18/engineering.html"
+						data-toggle="tooltip"
+						data-placement="top"
+						title="Quan điểm cá nhân về Engineer"
+					>
+						&larr; Previous <span class="d-none d-md-inline">Post</span>
+					</a>
+				
+
+				
+
+			</div>
+
+		</div>
+	</div>
+</div>
+
+
+		<!-- Footer -->
+
+<hr>
+
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-md-10 mx-auto">
+				<ul class="list-inline text-center">
+					
+					<li class="list-inline-item">
+						<a href="mailto:giapdong.svbk62@gmail.com">
+						<span class="fa-stack fa-lg">
+							<i class="fas fa-circle fa-stack-2x"></i>
+							<i class="far fa-envelope fa-stack-1x fa-inverse"></i>
+						</span>
+						</a>
+					</li>
+					
+
+					
+
+					
+
+					
+
+					
+					<li class="list-inline-item">
+						<a href="https://github.com/giapdong" target='_blank'>
+						<span class="fa-stack fa-lg">
+							<i class="fas fa-circle fa-stack-2x"></i>
+							<i class="fab fa-github fa-stack-1x fa-inverse"></i>
+						</span>
+						</a>
+					</li>
+					
+
+					
+
+					
+					<li class="list-inline-item">
+						<a href="https://www.youtube.com/@DiDevStudio" target='_blank'>
+						<span class="fa-stack fa-lg">
+							<i class="fas fa-circle fa-stack-2x"></i>
+							<i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+						</span>
+						</a>
+					</li>
+					
+				</ul>
+
+				<p class="copyright text-muted">Dino &copy;  2024 | Powered by Jekyll</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/autorun.js"></script>
+<script src="/assets/navbar.scroll.js"></script>
+
+
+
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '');
+</script>
+
+
+
+	</body>
+
+</html>
