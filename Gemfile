@@ -45,7 +45,7 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 # Version 227 is competible with v3.9.2 of Jekyll
 # gem "github-pages", "~> 227", group: :jekyll_plugins
-gem "jekyll", "~> 3.9.2"
+gem "jekyll", "~> 3.9.2", group: :jekyll_plugins
 gem "jekyll-paginate", "~> 1.1.0"
 gem "jekyll-sitemap", "~> 1.4.0"
 
