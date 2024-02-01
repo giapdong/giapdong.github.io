@@ -250,7 +250,7 @@ Và rồi gần đến đích thì là lúc mà mọi người lại phải leo 
 
 Lúc mà mình thấy vạch đích là lúc mà vượt ra khỏi đoạn dốc đó, nghe thấy từng tiếng chúc mừng là hai chị em rất vui, hai ce đã có hành trình rất khó khăn để PHẢI về đích đúng cutoff time. Cờ mình cũng đã bỏ ra từ sớm, dùng luôn cái gậy làm cán cờ và mang nó về như đúng lời hứa nào 😎
 
-<div>{% image src:"dlut-2023/vedich.jpg" caption:"" %}</div>
+<div>{% image src:"dlut-2023/vedich.jpg" caption:"DLUT Finisher" %}</div>
 
 Cuối cùng lúc đó mình cũng rất vui và sung sướng! Thật sự ấy, lần đầu tiên mình đi chạy trail mà còn là ultra trail 55km nữa. Cộng thêm là mình cũng là người mà được sếp giao cho nhiệm vụ cầm cờ Cty về đích nên lúc đó cảm xúc mình lạ lắm :D Và sau đó mấy ae về nói chuyện thì thật ra sếp cũng là người đi ở top của mình nhưng mà đi đầu, sếp về trước mình có tầm 5p thôi chứ k nhiều đâu. Đầu tiên mình cũng nghĩ là mình về sớm nhất rồi nhưng sếp vẫn về trước một chút, vì mình đi cả chặng đường k gặp ai trong cty mà mình đến các Checkpoint đều rất sớm. Sếp cũng đến các CP thời gian giống mình mà mình k gặp lần nào thế mới lạ chứ nị :D
 
