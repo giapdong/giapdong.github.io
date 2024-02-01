@@ -83,9 +83,7 @@ U chà, mình hay bị vậy. Chuẩn bị nhiều xong bị miss xong là xém 
 
 Đi lang thang thì mình cũng chơi mấy trò chơi ở đó, thích nhất là Heineken họ xếp mấy lon thành hàng và để mọi người thổi. Nếu mà thổi và nó đậu ở đúng lon cuối cùng thì được một phần quà nhỏ chính là bánh pizza cỡ nhỏ ăn cho vui. Mình vẫn nhớ là mỗi lần lấy hơi là căn từng tí một, xong lần thứ 4 nó thiếu một xíu lực nữa là sang bên kia làm mình cũng hồi hộp lây 😁 Và lại pattern cũ - nốt lần cuối, lấy hơi, tĩnh tâm và thổi, may sao nó lại ăn 😂😂
 
-<figure>
-	<img src="{{site.mediaurl}}/dlut-2023/expo-heineken-winner.jpg">
-</figure>
+<div>{% image src:"dlut-2023/expo-heineken-winner.jpg" caption:"Heineken winner" %}</div>
 
 Xong mình lang thang các gian hàng bán đồ trail thì mình gặp 2 người mà mình thích ở trên Youtube là anh Trí và chị Dương. Cũng cảm ơn a Trí vì cũng có nhiều chia sẻ trên [Youtube](https://www.youtube.com/@hacthaybachthay) hỗ trợ cho mình cũng nhiều trong cuộc sống 💚
 
@@ -104,9 +102,7 @@ Giờ lành đã đến (5:00 am), mình chậm dãi bước đi, thật sự l�
 
 Đây là bản đồ độ cao của DLUT 2023 nhé ạ
 
-<figure>
-	<img src="{{site.mediaurl}}/dlut-2023/dlut-55km.jpg">
-</figure>
+<div>{% image src:"dlut-2023/dlut-55km.jpg" caption:"" %}</div>
 
 
 # Khởi động -> CP1
@@ -179,9 +175,7 @@ Và ở đây mình bắt gặp pacer thứ 2 trên hành trình - chị Hiệp 
 
 Cập nhật lại bản đồ chút nhé, chúng ta đang ở cỡ khoảng km số 27 và đích đến là ở km số 34, khoảng cách áng chừng 7km, géc gô!!!
 
-<figure>
-	<img src="{{site.mediaurl}}/dlut-2023/dlut-elevation-78.jpg">
-</figure>
+<div>{% image src:"dlut-2023/dlut-elevation-78.jpg" caption:"" %}</div>
 
 Nhưng mà đoạn này mới vui nè, ngay sau khi rời khỏi CP7 k xa thì mình rẽ vào hướng khác đoàn và hướng đó nó có một dòng suối đi qua. Để đi qua đó thì hoặc là lội cả giày hoặc là bỏ ra và mình quyết định là cởi giày và tất cho chắc ăn vì mình cũng sợ ướt giày xong chạy nó bị phồng rộp. Nhưng mà chính nó đã cứu mình các ace ạ, mình cởi giày ra và lần mò từng bước đi qua - lúc đó mình chỉ nghĩ là đi cẩn thận để k dẫm phải thứ gì đó k mong muốn nhưng mà song song là cảm giác thoải mái ở bàn chân vì được ngâm trong làn nước mát 🤩🤩 ôi nghĩ lại thấy phê lây mà. Sang đến bờ bên kia an toàn và ngồi xuống thì thật sự chân mình như thể chưa bao giờ bị đau vậy. Mình khá ngạc nhiên vì điều đó nhưng mà cũng nhanh chóng lau khô chân và xỏ giày vào tiếp tục hành trình.
 
@@ -218,9 +212,7 @@ Rời CP9 ae bảo chỉ đến CP10 là về, mình mở bản đồ ra bảo l
 
 Cập nhật lại bản đồ chút nhé, sắp tới là chúng ta sẽ leo 3 bậc cầu thang các bác ợ 🫤🫤🫤 cái tầm mệt lử này rồi thì nó cũng hành xác phết đấy nhưng mà vẫn may mắn là nó k dốc đứng nên cũng vẫn còn okela.
 
-<figure>
-	<img src="{{site.mediaurl}}/dlut-2023/dlut-elevation-cutoff.jpg">
-</figure>
+<div>{% image src:"dlut-2023/dlut-elevation-cutoff.jpg" caption:"" %}</div>
 
 Trời thì bắt đầu tối rồi và hai ce bắt đầu đeo đèn đầu, khoảng thời gian đầu tiên mình cũng cố gắng optimize lượng pin bằng việc để nó sáng chế độ thấp nhất chỉ đủ đi đường thôi. Rồi đến lúc trời tối hơn là mình mới bật chế độ sáng hết cỡ để hai ce đi an toàn. Đèn đầu của chị Hiệp thì rõ là tối, nó còn k sáng đến chân để đi được cơ mà - khổ thân chị tôi. Đoạn này thì cứ đi thôi, tầm này là tầm mà có dài nữa dài mãi thì cũng vẫn đi vì nó vượt ngưỡng bản thân rồi, 9x9 - 81 kiếp nạn cũng kinh qua rồi thì thêm vài kiếp nạn nữa chắc k sao 😂😂
 
@@ -258,9 +250,7 @@ Và rồi gần đến đích thì là lúc mà mọi người lại phải leo 
 
 Lúc mà mình thấy vạch đích là lúc mà vượt ra khỏi đoạn dốc đó, nghe thấy từng tiếng chúc mừng là hai chị em rất vui, hai ce đã có hành trình rất khó khăn để PHẢI về đích đúng cutoff time. Cờ mình cũng đã bỏ ra từ sớm, dùng luôn cái gậy làm cán cờ và mang nó về như đúng lời hứa nào 😎
 
-<figure>
-	<img src="{{site.mediaurl}}/dlut-2023/vedich.jpg">
-</figure>
+<div>{% image src:"dlut-2023/vedich.jpg" caption:"" %}</div>
 
 Cuối cùng lúc đó mình cũng rất vui và sung sướng! Thật sự ấy, lần đầu tiên mình đi chạy trail mà còn là ultra trail 55km nữa. Cộng thêm là mình cũng là người mà được sếp giao cho nhiệm vụ cầm cờ Cty về đích nên lúc đó cảm xúc mình lạ lắm :D Và sau đó mấy ae về nói chuyện thì thật ra sếp cũng là người đi ở top của mình nhưng mà đi đầu, sếp về trước mình có tầm 5p thôi chứ k nhiều đâu. Đầu tiên mình cũng nghĩ là mình về sớm nhất rồi nhưng sếp vẫn về trước một chút, vì mình đi cả chặng đường k gặp ai trong cty mà mình đến các Checkpoint đều rất sớm. Sếp cũng đến các CP thời gian giống mình mà mình k gặp lần nào thế mới lạ chứ nị :D
 

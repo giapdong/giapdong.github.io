@@ -11,11 +11,8 @@ Mình có một kênh Youtube để chia sẻ kiến thức đến cộng đồn
 # Về kênh
 Mình lập kênh thì cũng khá lâu rồi nhưng mà cũng chưa có đủ thời gian phát triển nên là giờ con số **subscriber** cũng còn hạn chế, nên là các bạn đã đọc đến đây vào ủng hộ mình 1 sub nhé 😁😁
 
+<div>{% image src:"youtuber/channel-2023.jpg" caption:"Youtube Channel 2023" %}</div>
 
-<figure>
-	<img src="{{site.mediaurl}}/youtuber/channel-2023.jpg">
-	<figcaption>Youtube Channel 2023.</figcaption>
-</figure>
 
 # Unity
 Đầu tiên là mình xuất phát từ lập trình Game mà ra và trong quá trình đó mình cũng tranh thủ có những hướng dẫn cơ bản cho những chú `khủng long con`. Từ setup phần mềm, tạo ra những dòng code đầu tiên, có những game đơn giản và cuối cùng là build ra cho Android và IOS. Có thể nhiều phần qua nhiều năm đã outdate nhưng mà mình nghĩ là cách tư duy và hướng tiếp cận thì nó vẫn mãi còn đó.

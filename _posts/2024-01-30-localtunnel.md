@@ -11,12 +11,6 @@ Khỏi dài dòng thì trong bài này mình sẽ nói về phần mình đã l�
 Quan trọng hơn là nó phải `cố định`, tức là bạn luôn có 1 đường link cho mọi lần sử dụng công cụ đó! Thú vị không nào? Vậy thì nhào zô nha
 
 
-<p>{% render_datetime page rendered at: %}</p>
-<p>{% render_datetime page rendered at: %}</p>
-<p>{% render_datetime page rendered at: %}</p>
-<p>{% render_datetime page rendered at: %}</p>
-<p>{% render_datetime page rendered at: %}</p>
-
 # Công cụ
 Thành thực mà nói thì mình cũng k hoàn toàn tạo ra 100% công cụ này, mình dựa vào thư viện có sẵn đó là localtunnel và mình tự triển khai và có một chút customize cũng như fix bug để có thể sử dụng mượt nhất. Các bạn có thể xem lại hàng real [trên npm](https://www.npmjs.com/package/localtunnel).
 
