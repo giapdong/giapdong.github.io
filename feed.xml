@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-02-01T20:58:20+07:00</updated><id>/feed.xml</id><title type="html">Dino Live</title><subtitle>Survival Man ._.</subtitle><entry><title type="html">Tự build ngrok cho thoả đam mê</title><link href="/product/2024/01/30/localtunnel.html" rel="alternate" type="text/html" title="Tự build ngrok cho thoả đam mê" /><published>2024-01-30T20:40:00+07:00</published><updated>2024-01-30T20:40:00+07:00</updated><id>/product/2024/01/30/localtunnel</id><content type="html" xml:base="/product/2024/01/30/localtunnel.html">&lt;p&gt;Làm lại cả thế giới&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-02-01T21:00:29+07:00</updated><id>/feed.xml</id><title type="html">Dino Live</title><subtitle>Survival Man ._.</subtitle><entry><title type="html">Tự build ngrok cho thoả đam mê</title><link href="/product/2024/01/30/localtunnel.html" rel="alternate" type="text/html" title="Tự build ngrok cho thoả đam mê" /><published>2024-01-30T20:40:00+07:00</published><updated>2024-01-30T20:40:00+07:00</updated><id>/product/2024/01/30/localtunnel</id><content type="html" xml:base="/product/2024/01/30/localtunnel.html">&lt;p&gt;Làm lại cả thế giới&lt;/p&gt;
 
 &lt;h1 id=&quot;giới-thiệu&quot;&gt;Giới thiệu&lt;/h1&gt;
 &lt;p&gt;Khỏi dài dòng thì trong bài này mình sẽ nói về phần mình đã làm để sử dụng công cụ để có thể giúp mình expose local ra internet và làm nhiều thứ theo ý thích của mình.
 Quan trọng hơn là nó phải &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cố định&lt;/code&gt;, tức là bạn luôn có 1 đường link cho mọi lần sử dụng công cụ đó! Thú vị không nào? Vậy thì nhào zô nha&lt;/p&gt;
 
-&lt;p&gt;page rendered at:  2024-02-01 20:58:21 +0700&lt;/p&gt;
+&lt;p&gt;page rendered at:  2024-02-01 21:00:29 +0700&lt;/p&gt;
+&lt;p&gt;page rendered at:  2024-02-01 21:00:29 +0700&lt;/p&gt;
 
 &lt;h1 id=&quot;công-cụ&quot;&gt;Công cụ&lt;/h1&gt;
 &lt;p&gt;Thành thực mà nói thì mình cũng k hoàn toàn tạo ra 100% công cụ này, mình dựa vào thư viện có sẵn đó là localtunnel và mình tự triển khai và có một chút customize cũng như fix bug để có thể sử dụng mượt nhất. Các bạn có thể xem lại hàng real &lt;a href=&quot;https://www.npmjs.com/package/localtunnel&quot;&gt;trên npm&lt;/a&gt;.&lt;/p&gt;
