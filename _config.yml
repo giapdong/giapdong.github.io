@@ -48,6 +48,7 @@ plugins:
 # to override the default setting.
 exclude:
   - scripts
+  - commit.sh
   - deploy.sh
   - img
   - Gemfile
