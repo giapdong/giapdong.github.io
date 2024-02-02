@@ -7,11 +7,6 @@ module Jekyll
 			@attributes = {}
 			@attributes['src'] = '';
 			@attributes['caption'] = '';
-			@mediaurl = ''
-
-			if @mediaurl == ''
-				@mediaurl = Jekyll.configuration({})['mediaurl']
-			end
 
 			if markup =~ /(#{Liquid::QuotedFragment}+)?/
 				# Parse parameters
@@ -22,22 +17,24 @@ module Jekyll
 			else
 				raise SyntaxError.new("Bad options")
 			end
-
-			# If already using fully url or using embed url => Keep origin
-			matchData = @attributes['src'].match(/^https:\/\//)
-			if matchData != nil
-				@imageurl = @attributes['src']
-			else
-				@imageurl = "https://media.giapdong.live/" << @attributes['src']
-			end
 		end
 
 
 		def render(context)
 
+			mediaurl = context.registers[:site].config['mediaurl']
+
+			# If already using fully url or using embed url => Keep origin
+			matchData = @attributes['src'].match(/^https:\/\//)
+			if matchData != nil
+				imageurl = @attributes['src']
+			else
+				imageurl = "#{mediaurl}/#{@attributes['src']}"
+			end
+
 			%Q{
 				<figure>
-					<img src="#{@imageurl}">
+					<img src="#{imageurl}">
 					<figcaption>#{@attributes["caption"]}</figcaption>
 				</figure>
 			}

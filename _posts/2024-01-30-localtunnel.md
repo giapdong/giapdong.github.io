@@ -12,7 +12,9 @@ Quan trọng hơn là nó phải `cố định`, tức là bạn luôn có 1 đ�
 
 
 # Công cụ
-Thành thực mà nói thì mình cũng k hoàn toàn tạo ra 100% công cụ này, mình dựa vào thư viện có sẵn đó là localtunnel và mình tự triển khai và có một chút customize cũng như fix bug để có thể sử dụng mượt nhất. Các bạn có thể xem lại hàng real [trên npm](https://www.npmjs.com/package/localtunnel).
+Thành thực mà nói thì mình cũng k hoàn toàn tạo ra 100% công cụ này, mình dựa vào thư viện có sẵn đó là localtunnel và mình tự triển khai và có một chút customize cũng như fix bug để có thể sử dụng mượt nhất.
+
+Các bạn có thể xem lại hàng real [trên npm](https://www.npmjs.com/package/localtunnel) tuy nhiên có một số phần mình đã cải tiến nên mình khuyên các bạn nên dùng một repo mình fork về [Github cá nhân](https://github.com/giapdong/localtunnel).
 
 # Dùng nó như thế nào đây chú khủng long con?
 À thì nó cũng k khó lắm, bạn [vào đây](https://www.npmjs.com/package/localtunnel) để tải và cài đặt như một package npm **GLOBAL** bình thường. Sau đó thì chúng ta sẽ có 2 usecase
